@@ -118,4 +118,4 @@ async def purge(ctx, amount=5):
     await ctx.send(f'{amount} messages have been purged by {ctx.message.author.mention}')
 
 
-client.run(TOKEN)
+client.run('ODc5OTI3NzQ2Njg2NTA5MDg4.YSW2kw.JCtfFrdMxpHaBg7mseY5cL6TX78')
