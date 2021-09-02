@@ -5,6 +5,7 @@ from discord import channel
 from discord.ext import commands,tasks
 from discord.ext.commands import has_permissions, CheckFailure
 import DiscordUtils
+from dotenv import load_dotenv
 
 client= commands.Bot(command_prefix="+")
 
@@ -117,4 +118,4 @@ async def purge(ctx, amount=5):
     await ctx.send(f'{amount} messages have been purged by {ctx.message.author.mention}')
 
 
-client.run("ODc5OTI3NzQ2Njg2NTA5MDg4.YSW2kw.jWL1lEK8iQCS6D-NgovkfFUV_ZA")
+client.run(TOKEN)
